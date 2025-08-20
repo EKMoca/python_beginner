@@ -1,3 +1,3 @@
-# READ ME #
+# README #
 
-Hello World! I love using git!
+Hello World! This repository is for practicing and journaling python fundamentals.
