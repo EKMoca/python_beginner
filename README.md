@@ -1,2 +1,3 @@
 # READ ME #
-practice for learning repository in git workflow!
+
+- example_file.txt
