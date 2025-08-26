@@ -1,6 +1,12 @@
-falsy_values = [0, 0.0, 0j, {}, set(), (), [], False, None, list(range(0))]
-for i in falsy_values:
-    if i == False:
-        print("This is a falsy value. ")
-    else:
-        print("This is truthy, my boy. ")
+def extract_language(lang):
+    lang = lang.split('.')
+    lang.lstrip(*_)[0]
+    return lang
+
+
+print(extract_language('en_US.UTF-8'))      # en
+print(extract_language('en_GB.UTF-8'))      # en
+print(extract_language('ko_KR.UTF-16'))
+
+
+
