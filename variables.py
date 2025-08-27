@@ -1,12 +1,8 @@
-def extract_language(lang):
-    lang = lang.split('.')
-    lang.lstrip(*_)[0]
-    return lang
+numbers = {
+    'high':   100,
+    'medium': 50,
+    'low':    10,
+}
 
-
-print(extract_language('en_US.UTF-8'))      # en
-print(extract_language('en_GB.UTF-8'))      # en
-print(extract_language('ko_KR.UTF-16'))
-
-
-
+for level, number in numbers.items():
+    print(f'A {level} number is {number}.')
